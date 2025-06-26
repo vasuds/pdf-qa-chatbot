@@ -4,8 +4,10 @@ from PyPDF2 import PdfReader
 from langchain.text_splitter import CharacterTextSplitter
 #from langchain.embeddings import OpenAIEmbeddings
 from langchain_openai import OpenAIEmbeddings
-from langchain.vectorstores import FAISS
-from langchain.chat_models import ChatOpenAI
+#from langchain.vectorstores import FAISS
+from langchain_community.vectorstores import FAISS
+#from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.chains import ConversationalRetrievalChain
 from langchain.memory import ConversationBufferMemory
 from langchain.callbacks.base import BaseCallbackHandler

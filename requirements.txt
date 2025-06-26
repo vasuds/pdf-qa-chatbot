@@ -1,8 +1,10 @@
-python-dotenv               # instead of just "dotenv"
+python-dotenv
 streamlit
 PyPDF2
 openai>=1.0.0
 langchain>=0.1.16
-langchain-openai>=0.1.2     # ✅ required for OpenAIEmbeddings
+langchain-openai>=0.1.2
+langchain-community>=0.0.19
 faiss-cpu
 tiktoken
+
